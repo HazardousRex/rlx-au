@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — RLX.au</title>
+<meta name="description" content="Rigging Electrics Australia (RLX) is a Sydney-based rigging and lighting outfit working across film, television, live events and theatre in NSW, QLD, VIC and overseas.">
+<link rel="icon" href="images/favicon-32.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand" aria-label="RLX.au home">
+      <img src="images/logo-white.png" alt="RLX.au — Rigging Electrics Australia">
+    </a>
+    <nav class="main-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" aria-current="page">About</a></li>
+        <li><a href="services.html">Services</a></li>
+      </ul>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+  <section class="hero section-dark" style="padding-bottom: 40px;">
+    <div class="wrap">
+      <span class="hero-tag tag">About</span>
+      <h1 style="font-size:clamp(2.2rem,6vw,4rem);">Rigging Electrics<br>Australia.</h1>
+      <p class="lede" style="margin-top:24px;">RLX provides specialist rigging and lighting services for film and television production, live events, concerts, performing arts, theatre, festivals and advertising.</p>
+    </div>
+  </section>
+
+  <section class="section-dark">
+    <div class="wrap">
+      <div class="about-grid">
+        <div>
+          <p class="lede">Based in Sydney, working across Queensland, Victoria and overseas. Currently engaged on a long-form feature film.</p>
+          <p style="color:var(--paper-dim); max-width:60ch; margin-top:22px;">
+            From load-bearing truss and motor rig to lighting distro and on-set power, RLX works to the standard production demands — on set, on stage, and on site.
+          </p>
+        </div>
+        <div class="info-panel">
+          <dl>
+            <dt>Based</dt>
+            <dd>Sydney, NSW</dd>
+            <dt>Working in</dt>
+            <dd>NSW · QLD · VIC · Overseas</dd>
+            <dt>Currently</dt>
+            <dd>Engaged on a long-form feature film</dd>
+            <dt>Screen credits</dt>
+            <dd><a href="https://www.imdb.com/name/nm12684773/?ref_=ext_shr" target="_blank" rel="noopener">IMDb profile →</a></dd>
+            <dt>Email</dt>
+            <dd><a href="mailto:hi@rlx.au">hi@rlx.au</a></dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-light">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="tag">Coverage</span>
+        <h2>Where we work</h2>
+      </div>
+      <ul class="coverage-list">
+        <li><span class="place">Sydney, NSW</span><span class="note">Home base</span></li>
+        <li><span class="place">Queensland</span><span class="note">Production &amp; touring work</span></li>
+        <li><span class="place">Victoria</span><span class="note">Production &amp; touring work</span></li>
+        <li><span class="place">International</span><span class="note">By arrangement</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="wrap">
+      <h2>Working on something that needs rigging or lighting?</h2>
+      <a href="mailto:hi@rlx.au" class="btn btn-arrow">Send an enquiry</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <img src="images/logo-white.png" alt="RLX.au">
+        <p class="footer-contact">Rigging Electrics Australia<br>
+          <a href="mailto:hi@rlx.au">hi@rlx.au</a></p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="https://www.imdb.com/name/nm12684773/?ref_=ext_shr" target="_blank" rel="noopener">IMDb</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year"></span> Rigging Electrics Australia</span>
+      <span>Sydney · Queensland · Victoria · Overseas</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
